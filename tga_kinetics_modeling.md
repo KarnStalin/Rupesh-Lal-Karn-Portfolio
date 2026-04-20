@@ -17,9 +17,13 @@ Thermal analysis was performed under controlled conditions using multiple heatin
 
 ## Conceptual Basis
 
+## Conceptual Basis
+
 Thermal decomposition follows:
 
-:contentReference[oaicite:0]{index=0}
+$$
+\frac{d\alpha}{dt} = k(T) f(\alpha)
+$$
 
 Where:
 - α = conversion fraction  
@@ -28,9 +32,9 @@ Where:
 
 Arrhenius relation:
 
-:contentReference[oaicite:1]{index=1}
-
----
+$$
+k(T) = A e^{-E_a / RT}
+$$
 
 ## Conversion Definition
 
