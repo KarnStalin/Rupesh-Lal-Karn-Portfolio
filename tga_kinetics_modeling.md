@@ -67,7 +67,9 @@ $$
 
 ### 2. Flynn–Wall–Ozawa (FWO) Method
 
-:contentReference[oaicite:4]{index=4}
+$$
+\log(\beta) = -0.4567 \frac{E_a}{RT} + C
+$$
 
 - Isoconversional method (constant α)  
 - Does not require reaction model  
