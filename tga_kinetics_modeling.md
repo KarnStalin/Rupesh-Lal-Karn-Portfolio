@@ -38,20 +38,26 @@ $$
 
 ## Conversion Definition
 
-:contentReference[oaicite:2]{index=2}
+## Conversion Definition
+
+$$
+\alpha = \frac{m_0 - m_t}{m_0 - m_f}
+$$
 
 Where:
 - m₀ = initial mass  
 - mₜ = mass at time t  
 - m_f = final mass  
 
----
-
 ## Kinetic Modeling Methods
 
 ### 1. Kissinger Method
 
-:contentReference[oaicite:3]{index=3}
+### 1. Kissinger Method
+
+$$
+\ln\left(\frac{\beta}{T_p^2}\right) = -\frac{E_a}{R T_p} + C
+$$
 
 - Uses peak temperature (Tₚ) at different heating rates  
 - Provides apparent activation energy (Eₐ)  
@@ -71,8 +77,9 @@ Where:
 
 ### 3. Kissinger–Akahira–Sunose (KAS) Method
 
-:contentReference[oaicite:5]{index=5}
-
+$$
+\ln\left(\frac{\beta}{T^2}\right) = -\frac{E_a}{RT} + C
+$$
 - Similar to FWO but uses different approximation  
 - Provides more accurate Eₐ trends  
 
